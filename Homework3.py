@@ -11,8 +11,10 @@ elif operator == '*':
     print(number_1 * number_2)
 elif operator == '/':
     if number_2 == 0:
-        print('На ноль делить нельзя')
-    print(number_1 / number_2)
+        print("Делить на ноль нельзя")
+        exit
+    else:
+        print(number_1 / number_2)
 else:
     print('Ошибка')
 
